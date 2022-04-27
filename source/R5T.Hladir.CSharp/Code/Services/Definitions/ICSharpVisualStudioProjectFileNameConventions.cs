@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Hladir.CSharp
-{
-    public interface ICSharpVisualStudioProjectFileNameConventions
+{[ServiceDefinitionMarker]
+    public interface ICSharpVisualStudioProjectFileNameConventions:IServiceDefinition
     {
         string GetCSharpProjectName(string projectFileName);
         string GetCSharpProjectFileName(string projectName);

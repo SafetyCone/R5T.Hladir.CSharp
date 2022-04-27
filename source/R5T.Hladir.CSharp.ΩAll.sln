@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Hladir.CSharp.Construct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Hladir.CSharp.Testing", "R5T.Hladir.CSharp.Testing\R5T.Hladir.CSharp.Testing.csproj", "{0AE9DFCD-DBA3-4AE8-A68C-25B1596C98FA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{A004405D-B587-41D7-99A1-F9339318A344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{39B638C4-F18A-4448-AFF8-851ED0DDF386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{0AE9DFCD-DBA3-4AE8-A68C-25B1596C98FA}.Release|x64.Build.0 = Release|Any CPU
 		{0AE9DFCD-DBA3-4AE8-A68C-25B1596C98FA}.Release|x86.ActiveCfg = Release|Any CPU
 		{0AE9DFCD-DBA3-4AE8-A68C-25B1596C98FA}.Release|x86.Build.0 = Release|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Debug|x64.Build.0 = Debug|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Debug|x86.Build.0 = Debug|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Release|x64.ActiveCfg = Release|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Release|x64.Build.0 = Release|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Release|x86.ActiveCfg = Release|Any CPU
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39B638C4-F18A-4448-AFF8-851ED0DDF386} = {A004405D-B587-41D7-99A1-F9339318A344}
 	EndGlobalSection
 EndGlobal

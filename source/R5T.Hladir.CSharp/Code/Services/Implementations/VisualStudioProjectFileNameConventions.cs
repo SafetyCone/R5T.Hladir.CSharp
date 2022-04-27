@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Hladir.CSharp
-{
-    public class VisualStudioProjectFileNameConventions : IVisualStudioProjectFileNameConventions
+{[ServiceImplementationMarker]
+    public class VisualStudioProjectFileNameConventions : IVisualStudioProjectFileNameConventions,IServiceImplementation
     {
         private ICSharpVisualStudioProjectFileNameConventions CSharpVisualStudioProjectFileNameConventions { get; }
 

@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Lombardy;
+using R5T.Lombardy;using R5T.T0064;
 
 
 namespace R5T.Hladir.CSharp
-{
-    public class CSharpVisualStudioProjectFileNameConventions : ICSharpVisualStudioProjectFileNameConventions
+{[ServiceImplementationMarker]
+    public class CSharpVisualStudioProjectFileNameConventions : ICSharpVisualStudioProjectFileNameConventions,IServiceImplementation
     {
         private IFileNameOperator FileNameOperator { get; }
 
